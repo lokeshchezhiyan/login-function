@@ -1,0 +1,76 @@
+body,html {
+    height: 100%;
+    width: 100%;
+}
+ body{
+    background-image: url(/images/river.avif);
+    width: auto;
+
+ }
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    padding-top:60px ;
+justify-content: center;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.menu a:hover{
+    color: white;
+
+}
+.start{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8%;
+    color: white;
+}
+.start p{
+    font-size: 30px;
+    color: black;
+    font-size: 30px;
+    
+}
+.para{
+    text-align: center;
+    color: white;
+}
+.radio{
+    text-align: center;
+    cursor: pointer;
+}
+.click{
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 410px; 
+    border-radius: 15px;
+    border-color: black;
+    background: skyblue;
+    font-family: serif;
+    
+}
+.click:active{
+    color: white;
+}
+
+.loki{
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    background-color:skyblue;
+    margin-bottom: 500px;
+}
+.loki:hover{
+    width:200px;
+}
+.ice{
+    width: 100%;
+}
+ 
+
+
